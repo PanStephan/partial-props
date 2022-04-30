@@ -1,6 +1,6 @@
 {
   "name": "partial-props",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "light-weight library for partial react components creating",
   "author": "stephan.startsev@gmail.com",
   "license": "MIT",
@@ -8,27 +8,18 @@
   "repository": {
     "type": "git"
   },
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
   "files": [
     "dist"
   ],
-  "module": "dist/index.js",
-  "typings": "dist/index.d.ts",
+  "module": "dist/main.js",
+  "typings": "dist/main.d.ts",
   "publishConfig": {
     "directory": "dist"
   },
-  "peerDependencies": {
-    "react": ">16.13.1",
-    "react-dom": ">16.13.1"
-  },
   "dependencies": {
-    "react": ">16.13.1",
-    "react-dom": ">16.13.1",
     "typescript": ">3.8.3"
-  },
-  "devDependencies": {
-    "@types/react": "^16.9.36"
   },
   "scripts": {
     "build": "tsc",
