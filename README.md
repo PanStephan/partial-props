@@ -30,7 +30,7 @@ type Btn<T extends boolean = false> =
   PartialProp<{ useIcon?: T }, BasicProps, IconBtn, RegularBtn, 'onClick'>;
 
 // its necessary to provide T with default false value for correct props observing  
-const Button = <T extends boolean = false>(props: Btn<T>) => {
+const Button = <T extends boolean = false, >(props: PropsWithChildren<Btn<T>>) => {
   const { onClick, text, useIcon } = props as Btn;
   const { icon } = props as Btn<true>;
   return useIcon
