@@ -1,10 +1,17 @@
 {
   "name": "partial-props",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "light-weight library for partial react components creating",
   "author": "stephan.startsev@gmail.com",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "typescript",
+    "react",
+    "partial props",
+    "jsx",
+    "javascript"
+  ],
   "repository": {
     "type": "git"
   },
