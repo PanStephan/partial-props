@@ -13,7 +13,8 @@
     "javascript"
   ],
   "repository": {
-    "type": "git"
+    "type": "git",
+    "url": "git@github.com:PanStephan/partial-props.git"
   },
   "main": "dist/main.js",
   "types": "dist/main.d.ts",
